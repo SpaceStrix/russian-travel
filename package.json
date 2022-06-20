@@ -1,0 +1,21 @@
+{
+  "name": "russian-travel",
+  "version": "1.0.0",
+  "description": "Путешествия по России",
+  "main": "index.js",
+  "scripts": {
+    "nested": "css-to-bem-file-structure style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpaceStrix/russian-travel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpaceStrix/russian-travel/issues"
+  },
+  "homepage": "https://github.com/SpaceStrix/russian-travel#readme"
+}
