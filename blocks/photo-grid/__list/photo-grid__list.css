@@ -11,11 +11,19 @@
 @media screen and (max-width: 1024px) {
 	.photo-grid__list {
 		gap: 14px;
+		row-gap: 8px;
 	}
 }
 
 @media screen and (max-width: 768px) {
 	.photo-grid__list {
 		gap: 16px;
+		row-gap: 6px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.photo-grid__list {
+		gap: 8px;
 	}
 }
