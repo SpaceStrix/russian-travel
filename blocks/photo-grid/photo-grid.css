@@ -1,4 +1,24 @@
 .photo-grid {
+	max-width: 1184px;
+	margin: 0 auto;
 	padding: 78px 0;
 	object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+	.photo-grid {
+		padding: 92px 48px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.photo-grid {
+		padding: 88px 24px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.photo-grid {
+		padding: 63px 16px;
+	}
 }
