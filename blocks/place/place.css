@@ -10,14 +10,14 @@
 	margin-bottom: 80px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 	.place {
 		column-gap: 32px;
 		grid-template-columns: 440px auto;
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
 	.place {
 		column-gap: 28px;
 		grid-template-columns: 340px auto;
@@ -34,7 +34,7 @@
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
 	.place:not(:last-child) {
 		margin-bottom: 48px;
 	}

@@ -24,25 +24,25 @@
 	opacity: 0.8;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
 	.cover {
 		width: calc(100% - 2*48px);
 	}
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 	.cover {
 		width: 100%;
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
 	.cover {
-		margin-top: 92px;
+		margin-top: 88px;
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
 	.cover {
 		max-width: 100%;
 		margin: 65px auto;

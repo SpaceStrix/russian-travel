@@ -10,19 +10,19 @@
 	align-items: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 	.cover__overlay {
 		min-height: 640px;
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
 	.cover__overlay {
 		min-height: 480px;
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
 	.cover__overlay {
 		min-height: 200px;
 	}
